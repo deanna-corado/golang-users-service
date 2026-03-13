@@ -14,18 +14,10 @@ go get github.com/joho/godotenv
 
 go install github.com/githubnemo/CompileDaemon@latest
 
-# use daemon
-
-compiledaemon --command="./user-service"
-
-# gormigrate for migrations
+compiledaemon --command="./golang-users-service"
 
 go get github.com/go-gormigrate/gormigrate/v2@latest
 
-# gormigrate for migrations
-
 go get github.com/go-gormigrate/gormigrate/v2@latest
-
-# resty
 
 go get github.com/go-resty/resty/v2
