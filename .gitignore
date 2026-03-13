@@ -1,0 +1,66 @@
+# =========================
+# Go build files
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+build/
+
+# =========================
+# Go modules
+# =========================
+vendor/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Environment variables (VERY IMPORTANT)
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# IDE / Editor files
+# =========================
+
+# VS Code
+.vscode/
+
+# GoLand / IntelliJ
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =========================
+# Temporary / cache
+# =========================
+tmp/
+temp/
+*.swp
+*.swo
+
+# =========================
+# Coverage reports
+# =========================
+coverage.out
+coverage.html
+
+# =========================
+# Docker (if you use later)
+# =========================
+docker-compose.override.yml
